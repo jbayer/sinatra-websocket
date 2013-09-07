@@ -1,0 +1,8 @@
+---
+applications:
+- name: ws
+  memory: 256M
+  instances: 1
+  host: wstest-${random-word}
+  domain: cfapps.io
+  path: .
